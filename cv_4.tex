@@ -25,6 +25,7 @@
 \usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage[UTF8]{ctex}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhead{}
 % \fancyfoot[C]{Page \thepage}
@@ -32,8 +33,9 @@
 
 
 %\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\name{Yang Yanjun} % Your name\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{杨彦隽} % Your name\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
+\address{https://github.com/YJY1029}
 \address{+65 9120 3467 / +86 15074995687} % Your phone number
 \address{yyang039@e.ntu.edu.sg} % Your email address
 
@@ -43,94 +45,95 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
+\begin{rSection}{教育经历}
 	
-	\begin{rSubsection}{Tongji University}{Sept, 2017 - July, 2021}{BEng. in Electronic Science and Technology}{Shanghai China}
-		\item Academic record: 84.8\% 
-		\item Core units taken: Design and Analysis of Digital Integrated Circuits, Computer Architecture, Analysis and Design of Analog Integrated Circuits, Principles for Design of Integrated Circuit Chips, Principles of Semiconductor Device, Embedded Systems
+	\begin{rSubsection}{同济大学}{2017年9月 - 2021年7月}{电子科学与技术，学士}{中国上海}
+		\item 平均绩点：84.8\% 
+		\item 主要课程：数字集成电路分析与设计，计算机体系结构，模拟集成电路分析与设计，集成系统芯片设计原理，半导体器件原理，嵌入式系统
 	\end{rSubsection}
 
-	\begin{rSubsection}{Nanyang Technological University}{Aug, 2021 - present}{Msc (Electronics)}{Singapore}
-		\item CGPA: 4.63/5.00
-		\item Core units taken: Digital Integrated Circuits Design, Advanced Topics in Semiconductor Devices, Electromagnetic Compability Design, LED Lighting \& Display Technologies
+	\begin{rSubsection}{南洋理工大学}{2021年8月 - }{Msc (Electronics)}{新加坡}
+		\item 平均绩点: 4.63/5.00
+		\item 主要课程: Digital Integrated Circuits Design, Advanced Topics in Semiconductor Devices, Electromagnetic Compability Design, LED Lighting \& Display Technologies
 	\end{rSubsection}
 
 \end{rSection}
 
-\begin{rSection}{Research Experience}
+\begin{rSection}{研究经历}
 
-	\begin{rSubsection}{Design of a hierarchical memory management mechanism}{Aug, 2021 - Jan, 2022}{Tongji University}{Part-time Internship}
-		\item In charge of a hierarchical SRAM-flash interface design with page replacement algorithm
-		\item Applying the design on an automobile-orientated Cortex-M3 MCU
+	\begin{rSubsection}{分级存储管理机制设计}{2021年8月- 2022年1月}{同济大学}{实习研究助理}
+		\item 主持设计一种使用页置换算法的分级SRAM-Flash硬件接口
+		\item 将此设计应用到面向汽车的Cortex-M3微控制器中
 	\end{rSubsection}
 	
-	\begin{rSubsection}{CoNM: Core of Normal Microarchitecture}{Mar, 2021 - Jun, 2021}{Tongji University}{}
-		\item Designed an original 50MHz RV32I CPU core with a four-stage pipeline and static prediction mechanism using Verilog
-		\item Transplanted the core onto PYNQ-Z1 FPGA for successful verification
+	\begin{rSubsection}{CoNM: 规范微架构核心}{2021年3月 - 2021年6月}{同济大学}{本科毕业设计}
+		\item 独立设计一款基于RV32I指令集，带有4级流水线与静态分支预测的50MHzCPU软核
+		\item 在PYNQ-Z1 FPGA开发板上成功完成该软核的移植与分析工作
 	\end{rSubsection}
 
-	\begin{rSubsection}{Digital Integrated Circuits Curriculum Design}{Jun, 2020 - July, 2020}{Tongji University}{}
-		\item Designed and analyzed a 32-bit quick adder embedded with three different structures using Cadence
-		\item Produced an analysis report on hierarchy, implementation, verification and simulation results 
+	\begin{rSubsection}{数字集成电路课程设计}{2020年6月 - 2020年7月}{同济大学}{课程设计}
+		\item 使用Cadence virtuoso设计了一种3结构嵌套的32-bit快速加法器
+		\item 完成了该设计的层次、实现、验证与仿真分析
 	\end{rSubsection}
 
-	\begin{rSubsection}{A Single-layer Wideband Microwave Absorber with Reactive Screen, A Novel Design of Microwave Absorber for Reduction of Radar Cross Section}{Dec, 2019 - May, 2020}{Tongji University}{}
-		\item In charge of HFSS antenna simulation and analyses of experimental data
-		\item Published two academic papers accepted by IEEE AP-S/URSI 2020 as the second author
+	\begin{rSubsection}{A Single-layer Wideband Microwave Absorber with Reactive Screen, A Novel Design of Microwave Absorber for Reduction of Radar Cross Section}{2019年12月 - 2020年5月}{同济大学}{第二作者}
+		\item 负责HFSS天线仿真与实验数据分析工作
+		\item 以第二作者身份在IEEE AP-S/URSI 2020会议上发表两篇论文
 	\end{rSubsection}
 
 \end{rSection}
-
-\begin{rSection}{Current Projects}
-	
-	\begin{rSubsection}{ReMap: design of an optimized logarithmic conversion circuit}{Aug, 2021 - present}{Nanyang Technological University}{Msc Dissertation Project}
-		\item Researching on algorithm optimizations of a Mitchell-based logarithmic approximation method
-		\item Implementing and evaluating corresponding integrated circuits
-	\end{rSubsection}
 
 \newpage
+
+\begin{rSection}{现有项目}
 	
-	\begin{rSubsection}{Transplanting a core design to CHISEL}{Oct, 2021 - present}{Self-learning}{}
-		\item Learning CHISEL and transplanting previous CoNM project
-		\item Evaluating potential addition of ISA modules
+	\begin{rSubsection}{ReMap: 一种优化的基于Mitchell方法的近似对数转换电路}{2021年8月 - }{南洋理工大学}{Msc Dissertation Project}
+		\item 研究一种Mitchell对数近似转换电路的优化方法
+		\item 使用STM40nm工艺综合、仿真并评估该电路
+	\end{rSubsection}
+	
+	\begin{rSubsection}{移植CoNM内核至CHISEL}{2021年10月 - }{自学}{}
+		\item 学习CHISEL硬件设计语言并移植CoNM软核
+		\item 评估可添加的指令集模块
 	\end{rSubsection}
 
 \end{rSection}
 
-\begin{rSection}{Honours and Awards}
+\begin{rSection}{所获奖项}
 	
-	\begin{rSubsection}{Tongji University}{1st Semester, 2017}{Advanced Summer Internship Individual}{}
-		\item Awarded for the great performance during summer internship
+	\begin{rSubsection}{同济大学}{2017年第1学期}{暑期实践先进个人}{}
+		\item 曾任同济大学暑期实践项目《改革开放后长株潭城市群以交通为中心基建情况的调研》负责人
 	\end{rSubsection}
 		
-	\begin{rSubsection}{Tongji University}{1st Semester, 2019}{Outstanding Student Cadre}{}
-		\item Awarded for the outstanding work as the minister of the Rights and Welfare Department in Students' Union
+	\begin{rSubsection}{同济大学}{2019年第1学期}{优秀学生干部}{}
+		\item 曾任同济大学学生会权益保障与生活福利部部长
 	\end{rSubsection}
 
 \end{rSection}
 
-\begin{rSection}{Professional Skills}
+\begin{rSection}{专业技能}
 	
-	\begin{rSubsection}{Programming Languages}{}{}{}
-		\item Proficient in Verilog, VHDL
-		\item Competent in C++, C
-		\item Developing skills in CHISEL, Python
+	\begin{rSubsection}{编程语言}{}{}{}
+		\item 擅长使用Verilog与VHDL
+		\item 熟练使用C/C++
+		\item 具有一定的CHISEL与Python编程能力
 	\end{rSubsection}
 
-	\begin{rSubsection}{Professional Software}{}{}{}
-		\item Skilled in ModelSim, MATLAB 
-		\item Good command of Vivado, Synopsys, Cadence, Git, LaTeX
-		\item Good knowledge of HFSS, ISE, Keil
+	\begin{rSubsection}{专业软件}{}{}{}
+		\item 擅长使用ModelSim与MATLAB 
+		\item 熟练使用Vivado，Synopsys，Cadence，git，MarkDown等
+		\item 具备HFSS，ISE，Keil等软件的使用经验
 	\end{rSubsection}
 
-	\begin{rSubsection}{Languages}{}{Native in Chinese, proficient in English}{}
-		\item IELTS 8.0/9.0, equivalent to CEFR level C1
+	\begin{rSubsection}{语言}{}{母语：中文，熟练：英语}{}
+		\item 普通话水平测试90.5/100，二级甲等
+		\item IELTS 8.0/9.0，CEFR等级C1
 	\end{rSubsection}
 
 \end{rSection}
 
-\begin{rSection}{Interests}
-	\item Literature and languages, music, football
+\begin{rSection}{兴趣爱好}
+	\item 文学与语言，音乐，足球
 \end{rSection}
 
 \end{document}
