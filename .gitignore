@@ -1,2 +1,5 @@
 vsbuild/*
 *.aux
+*.fls
+*.fdb_latexmk
+*.xdv
