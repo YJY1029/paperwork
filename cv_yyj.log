@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.10)  5 OCT 2022 23:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.10)  31 OCT 2022 23:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/paperwork/cv_4.tex
-(d:/paperwork/cv_4.tex
+**d:/paperwork/cv_yyj.tex
+(d:/paperwork/cv_yyj.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
@@ -191,8 +191,8 @@ File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count275
 \g__pdf_backend_annotation_int=\count276
 \g__pdf_backend_link_int=\count277
-) (./cv_4.aux)
-\openout1 = `cv_4.aux'.
+) (./cv_yyj.aux)
+\openout1 = `cv_yyj.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -266,9 +266,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 41.
 LaTeX Info: Redefining \pageref on input line 41.
 LaTeX Info: Redefining \nameref on input line 41.
- (./cv_4.out) (./cv_4.out)
+ (./cv_yyj.out) (./cv_yyj.out)
 \@outlinefile=\write3
-\openout3 = `cv_4.out'.
+\openout3 = `cv_yyj.out'.
 
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 41--41
@@ -283,17 +283,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 50.
 [1
 
-] [2] (./cv_4.aux)
-Package rerunfilecheck Info: File `cv_4.out' has not changed.
+] [2] (./cv_yyj.aux)
+Package rerunfilecheck Info: File `cv_yyj.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  8668 strings out of 476180
- 137440 string characters out of 5813082
- 456173 words of memory out of 5000000
+ 137474 string characters out of 5813082
+ 456183 words of memory out of 5000000
  29338 multiletter control sequences out of 15000+600000
  472398 words of font info for 43 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,11n,76p,589b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,76p,591b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv_4.xdv (2 pages, 33548 bytes).
+Output written on cv_yyj.xdv (2 pages, 33620 bytes).
