@@ -1,8 +1,7 @@
-vsbuild/*
 *.aux
 *.fls
 *.log
-*.log
+*.out
 *.fdb_latexmk
 *.xdv
 *.synctex.gz
